@@ -2,102 +2,41 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register form</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Register form</title>
 </head>
 
 <body class="body">
-    <form action="#" class="register-form">
-        <div class="login-register-section">
-            <button class="login-btn">
-                Login
-            </button>
-            <span class="dash">
-                |
-            </span>
-            <button class="register-btn">
-                Register
-            </button>
-        </div>
-        <div class="input-section">
-            <fieldset class="input-fieldset">
-                <legend>Enter your email and password to register.</legend>
-                <p>
-                    <input type="text" class="username" placeholder="Username" name="username">
-                </p>
-
-                <p>
-                    <input type="email" class="email" placeholder="Enter your email adress" name="email">
-                </p>
-                <p>
-                    <input type="password" class="password" placeholder="Password" name="password">
-                </p>
-                <p>
-                    <input type="password" placeholder="Confirm Password" name="password2" class="password">
-                </p>
-                
-                <div class="margin-for-reg">
-                    <button type="submit" class="submit-register-btn">Register</button>
-                </div>
-            </fieldset>
-        </div>
-        <div class="register-with-section">
-            <fieldset class="register-with-fieldset">
-                <legend>
-                    Or register with
-                </legend>
-                <p>
-                    <a href="#" class="continue-with-google">
-                        <img src="img/google-png.png">
-                        Continue with google
-                    </a>
-                </p>
-                <div class="facebook-margin">
-                    <a href="#" class="continue-with-facebook">
-                        <img src="img/facebook-1.png">
-                        Continue with facebook
-                    </a>
-                </div>
-            </fieldset>
-        </div>
-        <div class="line-section">
-            <div class="line-block"></div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="container">
+    <div class="form-selection">
+      <a class="login-link" href="#">Login</a>
+      <span class="dash">|</span>
+      <a class="register-link" href="#">Register</a>
+    </div>
+    <form class="register-form" action="#">
+      <fieldset class="input-fieldset">
+        <legend>Enter your email and password to register.</legend>
+        <input type="text" class="input username" placeholder="Username" name="username" />
+        <input type="email" class="input email" placeholder="Enter your email adress" name="email" />
+        <input type="password" class="input password" placeholder="Password" name="password" />
+        <input type="password" placeholder="Confirm Password" name="password2" class="input password" />
+        <button type="submit" class="submit-register-btn">Register</button>
+      </fieldset>
+      <fieldset class="register-with-fieldset">
+        <legend>Or register with</legend>
+        <a href="#" class="continue-with google">
+          <img src="img/google.svg" alt="google" />
+          Continue with google
+        </a>
+        <a href="#" class="continue-with facebook">
+          <img src="img/facebook.svg" alt="facebook" />
+          Continue with facebook
+        </a>
+      </fieldset>
     </form>
-
-
+  </div>
 </body>
 
 </html>
