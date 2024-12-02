@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 30px auto 0 auto;
+
+}
+
+.header {
+  height: 53px;
+  border-bottom: 0.8px rgba(70, 163, 88, 0.50);
+}
+
+.menu-box {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.greenshop-logo {
+  padding: 7px 229px 7.3px 0;
+  text-decoration: none;
+  width: 150px;
+  height: 34.3px;
+  display: inline-block;
+}
+
+.greenshop-logo img {
+  max-width: 150px;
+}
+
+.menu {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.menu-item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 50px 0 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #3D3D3D;
+  padding-bottom: 25px;
+  height: 20px;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #46A358;
+}
+
+.login-box {
+  display: inline-block;
+  padding: 0 0 18px 325px;
+  margin: 0;
+  width: 100px;
+  vertical-align: top;
+  margin-top: 8px;
+
+}
+
+
+
+.login-box img {
+  width: 20px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 4px;
+}
+
+.login-btn {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 6px;
+  background: #46a358;
+  text-decoration: none;
+  font-style: normal;
+  vertical-align: top;
+  padding: 9px 17px;
+  width: 100px;
+  height: 35px;
+}
+
+
+.main {
+  margin: 12px 0 0 0;
+  background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+}
+
+.planet {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.planet-info {
+  display: inline-block;
+  vertical-align: top;
+  width: 693px;
+  padding: 0 0 0 40px;
+}
+
+.planet-header {
+  color: #3D3D3D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  vertical-align: top;
+  padding-top: 68px;
+  margin: 0;
+}
+
+.planet-h1 {
+  display: inline-block;
+  color: #3D3D3D;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+  text-transform: uppercase;
+  vertical-align: top;
+  padding-top: 7px;
+  margin: 0 auto;
+}
+
+.planet-span {
+  color: #46A358;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.planet-text {
+  display: inline-block;
+  vertical-align: top;
+  color: #727272;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.shop-now-link {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 6px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 6px;
+  background: #46A358;
+  text-decoration: none;
+  padding: 10px 26px;
+  margin-top: 34px;
+}
+
+.flower-section {
+  width: 507px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flower-section img {
+  max-width: 507px;
+}
