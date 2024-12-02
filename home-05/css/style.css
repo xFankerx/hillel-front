@@ -16,7 +16,8 @@ body {
 
 .header {
   height: 53px;
-  border-bottom: 0.8px rgba(70, 163, 88, 0.50);
+  border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+
 }
 
 .menu-box {
@@ -52,7 +53,7 @@ body {
 .menu-link {
   text-decoration: none;
   color: #3D3D3D;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   height: 20px;
 }
 
@@ -94,6 +95,7 @@ body {
   padding: 9px 17px;
   width: 100px;
   height: 35px;
+  margin: 0 0 0 50px;
 }
 
 
@@ -103,8 +105,6 @@ body {
 }
 
 .planet {
-  display: inline-block;
-  vertical-align: top;
   font-size: 0;
 }
 
