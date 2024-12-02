@@ -2,41 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Register form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Registration</title>
 </head>
 
 <body class="body">
-  <div class="container">
-    <div class="form-selection">
-      <a class="login-link" href="#">Login</a>
-      <span class="dash">|</span>
-      <a class="register-link" href="#">Register</a>
+  <div class="register">
+    <div class="type">
+      <a class="login" href=""> Login</a>
+      <span class="sap">I</span>
+      <a class="registration" href="">Register</a>
     </div>
-    <form class="register-form" action="#">
-      <fieldset class="input-fieldset">
-        <legend>Enter your email and password to register.</legend>
-        <input type="text" class="input username" placeholder="Username" name="username" />
-        <input type="email" class="input email" placeholder="Enter your email adress" name="email" />
-        <input type="password" class="input password" placeholder="Password" name="password" />
-        <input type="password" placeholder="Confirm Password" name="password2" class="input password" />
-        <button type="submit" class="submit-register-btn">Register</button>
-      </fieldset>
-      <fieldset class="register-with-fieldset">
-        <legend>Or register with</legend>
-        <a href="#" class="continue-with google">
-          <img src="img/google.svg" alt="google" />
-          Continue with google
-        </a>
-        <a href="#" class="continue-with facebook">
-          <img src="img/facebook.svg" alt="facebook" />
-          Continue with facebook
-        </a>
-      </fieldset>
+    <form action="#">
+      <p class="inline">Enter your email and password to register.</p>
+      <p>
+        <label>
+          <input class="default-input" type="text" placeholder="Username" name="login">
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input class="default-input" type="email" placeholder="Enter your email adress" name="email">
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input class="default-input" type="password" placeholder="Password" name="password">
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input class="default-input" type="password" placeholder="Confirm Password" name="password2">
+        </label>
+      </p>
+
+      <p class="button-box">
+        <button class="button-register" type="submit">Register</button>
+      </p>
     </form>
+    <p class="title">Or register with</p>
+    <a class="continue" href="">
+      <img src="img/google.svg" alt="">
+      Continue with Google
+    </a>
+    <a class="continue" href="">
+      <img src="img/facebook.svg" alt="">
+      Continue with Facebook
+    </a>
   </div>
+
 </body>
 
 </html>
