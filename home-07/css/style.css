@@ -139,7 +139,7 @@ item-link-caption {
   display: flex;
   justify-content: space-between;
   gap: 43px;
-  width: 268px;
+  width: 1074px;
 }
 
 .card-image {
@@ -149,6 +149,10 @@ item-link-caption {
 
 .item-card {
   padding: 9px 11px 12px 15px;
+  width: 268px;
+}
+
+.text-content {
   background: #FBFBFB;
 }
 
