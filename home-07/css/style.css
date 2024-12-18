@@ -144,16 +144,15 @@ item-link-caption {
 
 .card-image {
   max-width: 268px;
-  margin-bottom: 9px;
 }
 
 .item-card {
-  padding: 9px 11px 12px 15px;
   width: 268px;
 }
 
 .text-content {
   background: #FBFBFB;
+  padding: 9px 11px 12px 15px;
 }
 
 .september-text {
